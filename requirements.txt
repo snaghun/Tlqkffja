@@ -1,0 +1,13 @@
+import discord
+from discord import client
+from discord.channel import VoiceChannel
+from discord.ext import commands
+from selenium.webdriver.chrome import options
+from youtube_dl import YoutubeDL
+import bs4
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from discord.utils import get
+from discord import FFmpegPCMAudio
+import asyncio
+import time
