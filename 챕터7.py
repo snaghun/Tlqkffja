@@ -1,4 +1,5 @@
 import discord
+import os
 from discord import client
 from discord.channel import VoiceChannel
 from discord.ext import commands
@@ -375,4 +376,5 @@ async def 즐겨찾기(ctx):
             else:
                 await ctx.send("아직 등록하신 즐겨찾기가 없어요.")
 
-bot.run('ODgzMzg1MTY5MTA3NjQwMzIx.YTJKjA.GHEt5tBFsrrJWxBbCWR-0LH3zzQ')
+access_token = os.environ["BOT_TOKEN"]               
+bot.run(access_token)
